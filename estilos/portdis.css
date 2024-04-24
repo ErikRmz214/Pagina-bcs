@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #adaaaaef;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #030303;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.cursiva{
+    font-style: italic;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+#portfolio {
+    background-color: #686363ef;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.proyectos {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    background-color: rgba(0, 0, 0, 0) ; /* Utiliza !important para asegurar la precedencia */
+}
+
+
+.card {
+    width: 50rem;
+    margin: 0px;
+    background-color: rgba(0, 0, 0, 0) ; /* Utiliza !important para asegurar la precedencia */
+    border: 5px solid #000000ef;
+    border-radius: 10px;
+    overflow: hidden;
+}
+@media only screen and (max-width: 600px) {
+    /* Agrega estilos aquí */
+}
